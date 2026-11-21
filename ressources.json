@@ -1,0 +1,11 @@
+{
+  "front-end": [
+    { "titre": "Documentation MDN", "url": "https://developer.mozilla.org/fr/" }
+  ],
+  "back-end": [],
+  "bdd": [],
+  "algorithmique": [],
+  "outils": [
+    { "titre": "Appendix & raccourci VSCODE", "url": "https://ld-web.github.io/appendix/" }
+  ]
+}

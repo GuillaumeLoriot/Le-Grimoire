@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le Grimoire du Développeur</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+<script type="application/json" id="catalogue-local">{"cours.json":[{"id":1,"titre":"HTML","categorie":"front-end","description":"Langage de balisage de référence du Web, HTML structure le contenu des pages en titres, paragraphes, liens, images et formulaires.","image":"assets/html.png","url":"https://developer.mozilla.org/fr/docs/Learn_web_development","url2":"","url3":""},{"id":2,"titre":"CSS","categorie":"front-end","description":"Langage de mise en forme du Web, CSS définit l’apparence des pages et adapte leur mise en page aux différentes tailles d’écran.","image":"assets/css.png","url":"https://developer.mozilla.org/fr/docs/Web/CSS","url2":"","url3":""},{"id":3,"titre":"JavaScript","categorie":"front-end","description":"JavaScript est un langage de programmation qui rend les pages web interactives en réagissant aux actions de l’utilisateur et en actualisant le contenu à l’écran.","image":"assets/javascript.png","url":"https://fr.javascript.info/","url2":"","url3":""},{"id":4,"titre":"Angular","categorie":"front-end","description":"Framework front-end basé sur TypeScript, Angular organise l’interface d’une application web en composants réutilisables et gère la navigation entre ses vues.","image":"assets/angular.png","url":"https://angular-custom.vercel.app/","url2":"https://angular.dev/tutorials/learn-angular","url3":""},{"id":15,"titre":"React","categorie":"front-end","description":"Bibliothèque JavaScript dédiée aux interfaces utilisateur, React assemble des composants réutilisables et met à jour l’affichage lorsque les données changent.","image":"assets/react.png","url":"https://fr.react.dev/learn","url2":"","url3":""},{"id":5,"titre":"Java","categorie":"back-end","description":"Langage de programmation orienté objet, Java est notamment utilisé côté serveur pour développer des API et mettre en œuvre les règles métier des applications.","image":"assets/java.png","url":"https://dev.java/learn/","url2":"","url3":""},{"id":16,"titre":"Spring Boot","categorie":"back-end","description":"Basé sur le framework Spring, Spring Boot simplifie la création d’applications Java et d’API REST grâce à sa configuration automatique et à son serveur web intégré.","image":"assets/springboot.png","url":"https://spring.io/projects/spring-boot","url2":"","url3":""},{"id":14,"titre":"PHP","categorie":"back-end","description":"Langage de programmation exécuté côté serveur, PHP permet de générer des pages web dynamiques, de traiter des formulaires et d’interagir avec une base de données.","image":"assets/php.png","url":"https://ld-web.github.io/hb-php-pe8-2024-course/","url2":"https://www.php.net/manual/fr/","url3":"https://ld-web.github.io/su-12-2023-php-mvc-course/"},{"id":6,"titre":"Symfony","categorie":"back-end","description":"Framework PHP pour le développement d’applications web et d’API, Symfony fournit des composants pour le routage, les formulaires et la gestion des accès.","image":"assets/symfony.png","url":"https://ld-web.github.io/hb-sf-ft10-2025-course","url2":"https://symfony.com/doc/current/index.html","url3":""},{"id":17,"titre":"API","categorie":"back-end","description":"Une API définit comment un logiciel peut accéder aux données ou aux fonctionnalités d’un autre. Sur le Web, ces échanges passent généralement par des requêtes HTTP.","image":"assets/api.png","url":"https://ld-web.github.io/hb-api-ft10-2025-course","url2":"https://developer.mozilla.org/fr/docs/Glossary/API"},{"id":7,"titre":"Conception Merise","categorie":"bdd","description":"Méthode de conception des systèmes d’information, Merise décrit les données et leurs relations, du modèle conceptuel jusqu’à la structure des tables.","image":"assets/merise.png","url":"https://ld-web.github.io/hb-ft10-merise-course/","url2":"","url3":""},{"id":8,"titre":"Conception UML","categorie":"bdd","description":"Langage de modélisation graphique, UML représente la structure et le fonctionnement d’une application à travers des diagrammes de cas d’utilisation, de classes ou de séquence.","image":"assets/uml.png","url":"","url2":"","url3":""},{"id":9,"titre":"SQL","categorie":"bdd","description":"Langage de référence des bases de données relationnelles, SQL permet de définir des tables et de consulter, croiser ou modifier les données qu’elles contiennent.","image":"assets/sql.png","url":"https://bdd-sql-custom.vercel.app/","url2":"https://ld-web.github.io/hb-ft10-mysql-sql-course/","url3":""},{"id":10,"titre":"Visualiser les tris","categorie":"algorithmique","description":"Les animations de tri montrent comment différents algorithmes ordonnent une liste, étape par étape, en comparant ou en déplaçant ses éléments.","image":"assets/visualiser_tris.png","url":"https://visualgo.net/en/sorting","url2":"","url3":""},{"id":11,"titre":"Algorithmique","categorie":"algorithmique","description":"L’algorithmique consiste à décomposer la résolution d’un problème en étapes précises et à évaluer le temps et la mémoire nécessaires à leur exécution.","image":"assets/algo.png","url":"https://cdaalgo.vercel.app/1","url2":"","url3":""},{"id":12,"titre":"Git","categorie":"outils","description":"Ouvrage de référence sur Git, Pro Git présente le suivi des versions d’un projet, la gestion des branches et le travail collaboratif sur un dépôt.","image":"assets/git.png","url":"https://git-scm.com/book/fr/v2","url2":"https://learngitbranching.js.org/?locale=fr_FR","url3":""},{"id":13,"titre":"Docker","categorie":"outils","description":"Plateforme de conteneurisation, Docker regroupe une application et ses dépendances dans une image afin de l’exécuter dans un environnement isolé et reproductible.","image":"assets/docker.png","url":"https://docs.docker.com/get-started/","url2":"","url3":""}],"ressources.json":{"front-end":[{"titre":"Documentation MDN","url":"https://developer.mozilla.org/fr/"}],"back-end":[],"bdd":[],"algorithmique":[],"outils":[{"titre":"Appendix / raccourci VSCODE","url":"https://ld-web.github.io/appendix/"}]}}</script>
+</head>
+<body>
+<header>
+<button type="button" class="brand" aria-controls="book-pages" aria-expanded="false" aria-label="Ouvrir le grimoire">
+<svg viewBox="0 0 60 44" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M30 35Q20 26 5 30l4-18q13-3 21 8 8-11 21-8l4 18q-15-4-25 5Zm0-15v15M4 34q16-2 26 5 12-7 26-5M30 2l1.8 4.4L36 8l-4.2 1.6L30 14l-1.8-4.4L24 8l4.2-1.6Z"/></g></svg>
+<span>Le Grimoire<small>La bibliothèque du développeur</small></span></button>
+<nav aria-label="Catégories des cours"></nav>
+<label class="search"><span aria-hidden="true">⚲</span><input type="search" placeholder="Rechercher un cours…" aria-label="Rechercher dans tous les cours"></label>
+</header>
+<main>
+<div class="sigil" aria-hidden="true"><i></i>&lt;/&gt;<i></i></div>
+<h1>Le Grimoire du Développeur</h1>
+<p class="intro">Une collection de ressources pour apprendre et progresser en développement</p>
+<section class="reader" data-open="false" aria-label="Catalogue des ressources">
+<div class="floating"><div class="book-pose"><div class="volume" id="book-pages" inert>
+<div class="binding" aria-hidden="true"></div>
+<div class="spread"><div id="right" class="page right"></div><div id="turn" aria-hidden="true" inert></div></div>
+
+</div>
+<div class="closed-edges" aria-hidden="true"></div>
+<div class="hinged-half">
+  <div class="inside-board" aria-hidden="true"></div>
+  <div id="left" class="page left"></div>
+
+  <button class="book-cover" type="button" aria-label="Ouvrir le grimoire" aria-controls="book-pages"></button>
+</div>
+
+<div class="book-controls" inert role="group" aria-label="Feuilleter le grimoire">
+  <button class="arrow previous" aria-label="Page précédente" disabled>Précédent</button>
+  <div class="dots" role="group" aria-label="Choisir une double page"></div>
+  <button class="arrow next" aria-label="Page suivante" disabled>Suivant</button>
+</div>
+</div>
+</div>
+</section>
+<p class="sr" role="status" id="status"></p>
+</main>
+</body></html>
