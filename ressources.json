@@ -1,12 +1,22 @@
 {
   "front-end": [
-    { "titre": "Documentation MDN", "url": "https://developer.mozilla.org/fr/" }
+    { "titre": "Documentation MDN", "url": "https://developer.mozilla.org/fr/" },
+    { "titre": "Inspiration Web", "url": "https://httpster.net/" },
+    { "titre": "Inspiration Web", "url": "https://land-book.com/" },
+    { "titre": "Inspiration Web", "url": "https://maxibestof.one/" },
+    { "titre": "Modification de fonts et typographie", "url": "https://typoclast.com/" }
   ],
   "back-end": [],
   "bdd": [],
-  "algorithmique": [],
+  "algorithmique": [
+    { "titre": "System Design", "url": "https://designed-to-scale.vercel.app/" },
+    { "titre": "System Design (pratique)", "url": "https://www.devmaxx.dev/advent" },
+    { "titre": "Apprendre les Protocoles", "url": "https://protocol-explorer-alpha.vercel.app/" },
+    { "titre": "Algorithmes et structures de données", "url": "https://byte-sized-algorithms.vercel.app/" }
+  ],
   "outils": [
     { "titre": "Appendix & raccourci VSCODE", "url": "https://ld-web.github.io/appendix/" },
     { "titre": "Toutes les RoadMaps pour apprendre le développement", "url": "https://roadmap.sh/" }
   ]
 }
+

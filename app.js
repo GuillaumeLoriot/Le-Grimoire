@@ -3,7 +3,7 @@ const categories = {
   "front-end": "Front-end",
   "back-end": "Back-end",
   bdd: "Conception & BDD",
-  algorithmique: "Algorithmique",
+  algorithmique: "Fondamentaux & Algorithmique",
   outils: "Outils & méthodes"
 };
 const normalize = text => text.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
